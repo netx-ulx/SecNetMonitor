@@ -1,0 +1,23 @@
+table_set_default ipv4_lpm set_nhop 2
+table_set_default update_table1 update_row
+table_set_default update_table2 update_row
+table_set_default update_table3 update_row
+table_set_default update_table4 update_row
+table_set_default update_table5 update_row
+table_set_default update_table6 update_row
+table_set_default update_table7 update_row
+table_set_default update_table8 update_row
+table_set_default update_table9 update_row
+table_set_default update_table10 update_row
+table_set_default update_table11 update_row
+table_set_default update_table12 update_row
+table_set_default update_table13 update_row
+table_set_default update_table14 update_row
+table_set_default update_table15 update_row
+table_set_default update_table16 update_row
+table_set_default update_table17 update_row
+table_set_default update_table18 update_row
+table_set_default update_table19 update_row
+table_set_default update_table20 update_row
+table_add ipv4_lpm set_nhop 10.0.0.1/32 => 1
+table_add ipv4_lpm set_nhop 10.0.0.2/32 => 2
